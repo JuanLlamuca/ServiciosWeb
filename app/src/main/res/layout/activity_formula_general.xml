@@ -92,6 +92,7 @@
         android:layout_height="wrap_content"
         android:layout_x="142dp"
         android:layout_y="437dp"
+        android:onClick="finalizar"
         android:text="calcular"
         android:textSize="24sp" />
 

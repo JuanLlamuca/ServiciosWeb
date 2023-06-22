@@ -73,6 +73,7 @@
         android:layout_height="wrap_content"
         android:layout_x="299dp"
         android:layout_y="3dp"
+        android:onClick="finalizar"
         android:text="Regresar"
         app:backgroundTint="#7A092B" />
 </AbsoluteLayout>
