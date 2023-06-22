@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#080208"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="108dp"
+        android:layout_y="60dp"
+        android:text="Servicios web"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="100dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="199dp"
+        android:background="#184F26"
+        android:text="Fórmula General"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#184F26"
+        android:textSize="24sp"
+        app:backgroundTint="#184F26" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_x="65dp"
+        android:layout_y="316dp"
+        android:background="#184F26"
+        android:text="Potencia"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#184F26"
+        android:textSize="24sp"
+        app:backgroundTint="#184F26" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="-3dp"
+        android:layout_y="427dp"
+        android:background="#184F26"
+        android:text="Trinomio Cuadrado Perfecto"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#184F26"
+        android:textSize="24sp"
+        app:backgroundTint="#184F26" />
+</AbsoluteLayout>
