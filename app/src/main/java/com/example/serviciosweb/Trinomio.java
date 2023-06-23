@@ -13,7 +13,7 @@ public class Trinomio extends AppCompatActivity {
         setContentView(R.layout.activity_trinomio);
     }
 
-    public void finalizar(View view){
+    public void Finalizar(View view){
         this.finish();
     }
 }

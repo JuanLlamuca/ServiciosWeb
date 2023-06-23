@@ -14,7 +14,7 @@ public class Potencia extends AppCompatActivity {
     }
 
     //Funcion para regresar
-    public void finalizar(View view){
+    public void Finalizar(View view){
         this.finish();
     }
 }

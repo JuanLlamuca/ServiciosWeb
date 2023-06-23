@@ -68,12 +68,12 @@
         android:textSize="24sp" />
 
     <Button
-        android:id="@+id/btn_regresar3"
+        android:id="@+id/btn_regresar_formula"
         android:layout_width="106dp"
         android:layout_height="wrap_content"
         android:layout_x="299dp"
         android:layout_y="3dp"
-        android:onClick="finalizar"
+        android:onClick="Finalizar"
         android:text="Regresar"
         app:backgroundTint="#7A092B" />
 </AbsoluteLayout>

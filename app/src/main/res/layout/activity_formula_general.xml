@@ -8,7 +8,16 @@
     tools:context=".FormulaGeneral">
 
     <EditText
-        android:id="@+id/txt_a2"
+        android:id="@+id/txt_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="111dp"
+        android:layout_y="340dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txt_b"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="111dp"
@@ -17,11 +26,11 @@
         android:inputType="number" />
 
     <EditText
-        android:id="@+id/txt_a3"
+        android:id="@+id/txt_respuesta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="111dp"
-        android:layout_y="340dp"
+        android:layout_x="114dp"
+        android:layout_y="436dp"
         android:ems="10"
         android:inputType="number" />
 
@@ -36,11 +45,12 @@
         android:textSize="34sp" />
 
     <Button
-        android:id="@+id/btn_regresar"
+        android:id="@+id/btn_regresar_formula"
         android:layout_width="106dp"
         android:layout_height="wrap_content"
         android:layout_x="299dp"
         android:layout_y="3dp"
+        android:onClick="Finalizar"
         android:text="Regresar"
         app:backgroundTint="#7A092B" />
 
@@ -90,8 +100,8 @@
         android:id="@+id/btn_calcular"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="142dp"
-        android:layout_y="437dp"
+        android:layout_x="148dp"
+        android:layout_y="556dp"
         android:onClick="finalizar"
         android:text="calcular"
         android:textSize="24sp" />

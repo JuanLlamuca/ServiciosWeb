@@ -28,4 +28,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intent=new Intent(this,Trinomio.class);
         setContentView(R.layout.activity_trinomio);
     }
+
+    public void Finalizar(View view){
+        this.finish();
+    }
 }
