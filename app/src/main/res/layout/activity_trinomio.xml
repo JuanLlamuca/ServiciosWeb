@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".Trinomio">
+
+    <Button
+        android:id="@+id/btn_calcular3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="142dp"
+        android:layout_y="437dp"
+        android:text="calcular"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/txt_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="111dp"
+        android:layout_y="248dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txt_res"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="111dp"
+        android:layout_y="327dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txt_at"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="113dp"
+        android:layout_y="152dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="45dp"
+        android:layout_y="250dp"
+        android:text="B="
+        android:textColor="#FFFEFE"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="47dp"
+        android:layout_y="153dp"
+        android:text="A="
+        android:textColor="#FFFEFE"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="54dp"
+        android:layout_y="82dp"
+        android:text="Trinomio Cuadrado Perfecto"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_regresar_formula"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_x="299dp"
+        android:layout_y="3dp"
+        android:onClick="Finalizar"
+        android:text="Regresar"
+        app:backgroundTint="#7A092B" />
+</AbsoluteLayout>

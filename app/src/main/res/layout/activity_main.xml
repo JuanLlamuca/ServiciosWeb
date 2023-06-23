@@ -21,12 +21,13 @@
         tools:layout_editor_absoluteY="100dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_formula"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_x="0dp"
         android:layout_y="199dp"
         android:background="#184F26"
+        android:onClick="irFormula"
         android:text="Fórmula General"
         android:textColor="#FFFFFF"
         android:textColorHighlight="#184F26"
@@ -34,12 +35,13 @@
         app:backgroundTint="#184F26" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_potencia"
         android:layout_width="296dp"
         android:layout_height="wrap_content"
         android:layout_x="65dp"
         android:layout_y="316dp"
         android:background="#184F26"
+        android:onClick="irPontencia"
         android:text="Potencia"
         android:textColor="#FFFFFF"
         android:textColorHighlight="#184F26"
@@ -47,12 +49,13 @@
         app:backgroundTint="#184F26" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btn_trinomio"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_x="-3dp"
+        android:layout_x="0dp"
         android:layout_y="427dp"
         android:background="#184F26"
+        android:onClick="irTrinomio"
         android:text="Trinomio Cuadrado Perfecto"
         android:textColor="#FFFFFF"
         android:textColorHighlight="#184F26"
