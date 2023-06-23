@@ -40,7 +40,7 @@ public class FormulaGeneral extends AppCompatActivity {
     }
 
     private void leer(){
-        String url = "https://apifunciones.azurewebsites.net/Funciones/Potencia?a=" + txt_a + "&b=" + txt_b + "&c=" + txt_c;
+        String url = "https://apifunciones.azurewebsites.net/Funciones/FormulaGeneral?a=" + txt_a + "&b=" + txt_b + "&c=" + txt_c;
 
         StringRequest postResquest= new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
             @Override

@@ -26,6 +26,15 @@
         android:inputType="number" />
 
     <EditText
+        android:id="@+id/txt_res"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="111dp"
+        android:layout_y="327dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
         android:id="@+id/txt_at"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
